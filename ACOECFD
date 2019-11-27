@@ -1,9 +1,12 @@
-ACOEC-FD
+ACOEC-FD: Ant Colony Optimization for learning Brain Effective connectivity networks from Functional MRI and Diffusion tensor imaging
+Junzhong Ji, Jinduo Liu, Aixiao Zou, Aidong Zhang
+Frontiers in Neuroscience
+DOI: 10.3389/fnins.2019.01290
+
 
 
 Run:
 java -jar acoecfd.jar E:\\ACOECFD\\fMRI-4.txt 5 10000 E:\\ACOECFD\\DTI.txt 10 1 2 0.2 0.8 10 100 10
-
 
 Parameters Explanation:
 Parmeter1: E:\\ACOECFD\\fMRI-4.txt ; File path of fMRI data which has been Discretized.
@@ -23,10 +26,3 @@ Parmeter11: 10  ; Optimized generation interval
 Note:
 Data (fmri data and DTI matrix) are seperated by comma.
 Refer to the sample data given.
-
-
-
-
-ACOEC-FD: Ant Colony Optimization for learning Brain Effective connectivity networks from Functional MRI and Diffusion tensor imaging
-Junzhong Ji, Jinduo Liu, Aixiao Zou, Aidong Zhang
-DOI: 10.3389/fnins.2019.01290
